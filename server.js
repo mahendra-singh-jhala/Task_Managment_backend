@@ -17,7 +17,7 @@ connectdb();
 // middleware
 app.use(bodyParser.json())
 app.use(cors({
-    origin: 'https://taskmaster-task-management-app.netlify.app/',  
+    origin: 'https://taskmaster-task-management-app.netlify.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true 
 }));
